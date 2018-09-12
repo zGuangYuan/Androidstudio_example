@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <ImageView
+        android:id="@+id/IV_GridRV_Id"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#668866"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/TV_GridRV_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Hello"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:layout_marginTop="1dp"
+        android:background="#333333"/>
+
+</LinearLayout>
