@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/Toast_ButtonId_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认Toast"/>
+    <Button
+        android:id="@+id/Toast_ButtonId_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast改变位置"/>
+    <Button
+        android:id="@+id/Toast_ButtonId_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Toast"/>
+    <Button
+        android:id="@+id/Toast_ButtonId_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToastUtil"/>
+</LinearLayout>

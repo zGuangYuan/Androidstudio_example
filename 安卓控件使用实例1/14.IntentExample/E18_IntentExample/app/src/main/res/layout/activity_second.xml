@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/IntentDate_Id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="无数据...."
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/Intent_BackId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回 "/>
+</LinearLayout>

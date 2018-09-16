@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/IV_list_Id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TV_listTitle_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这是标题"
+            android:textSize="20dp"
+            android:textColor="#ff0000"/>
+        <TextView
+            android:id="@+id/TV_listTime_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018-8-28"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TV_listContext_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示内容"
+            android:textSize="20dp"
+            android:textColor="#ff9900"
+            />
+    </LinearLayout>
+
+</LinearLayout>
